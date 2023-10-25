@@ -19,7 +19,7 @@ First, we worked on EDA to see if we can find differences between reviews being 
 
 ![Lenght's review distribution](Images/review_lenght_distribution.png)
 
-![Lenght's review distribution](Images/review_lenght_distribution.png)
+![Word Count Per Label](Images/word_count_per_label.png)
 
 We realized that except for a difference of the lenghts of both types of reviews, it's really hard to differentiate them.
 
