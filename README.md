@@ -12,14 +12,14 @@ RealView is a revolutionary web browser extension and mobile app created to tack
 
 ## Data Sources
 
-To power Realview, we're using a data source from OSF.IO, that consist of over 40.000 different reviews, both human made and computer generated. This balanced dataset allow us to develop a robust model for fake review detection.
+To power Realview, we're using a data source from [OSF.IO](https://osf.io/tyue9), that consist of over 40.000 different reviews, both human made and computer generated. This balanced dataset allow us to develop a robust model for fake review detection.
 
 ## Methods
 First, we worked on EDA to see if we can find differences between reviews being computer-generated or not:
 
-![Lenght's review distribution](images/review_lenght_distribution.png)
+![Lenght's review distribution](Images/review_lenght_distribution.png)
 
-![Lenght's review distribution](images/review_lenght_distribution.png)
+![Lenght's review distribution](Images/review_lenght_distribution.png)
 
 We realized that except for a difference of the lenghts of both types of reviews, it's really hard to differentiate them.
 
@@ -38,9 +38,9 @@ For this project, we focus on creating the best possible model to detect fake re
 
 After many different iterations, this is the best performing model we found:
 
-![Best Neural Network](images/nn_model.png)
-![Confusion Matrix](images/confusion_matrix_nn.png)
-![Accuracy History](images/accuracy_history.png)
+![Best Neural Network](Images/nn_model.png)
+![Confusion Matrix](Images/confusion_matrix_nn.png)
+![Accuracy History](Images/accuracy_history.png)
 
 
 ## Recommendations
